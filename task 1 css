@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=Ysabeau+Office:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=Pacifico&family=Ysabeau+Office:ital@1&display=swap');
+
+
+* {
+    margin: 0%;
+    padding-right:   2px;
+}
+
+.sidebar {
+    background-color: lightblue;
+    width:350px ;
+    font-family: 'PT Sans', sans-serif;
+    height: 100vh;
+    
+}
+
+.sidebar nav {
+    padding: 10px;
+
+}
+
+.sidebar nav li {
+    list-style: none;
+    font-size: 30px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+}
+
+.main {
+    overflow-x: visible;
+    height: 50vw;
+    width: 100vw;
+}
+
+.container {
+    display: flex;
+
+
+}
+
+.infocontainer {
+    background-color: ;
+    margin: 50px auto;
+    height: 55vh;
+    width: 80vw;
+    display: flex;
+    justify-content: space-around;
+    
+
+
+}
+
+.devinfo {
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+    font-family: 'PT Sans', sans-serif;
+    font-family: 'Ysabeau Office', sans-serif;
+
+}
+
+.hello {
+    font-size: 50px;
+   
+
+}
+
+.name {
+    font-size: 50px;
+    font-family: 'Pacifico', cursive;
+
+}
+
+.about {
+    font-size: 30px;
+    padding: 20px;
+
+}
+
+.btn:hover{
+    border-radius: 1px;
+    padding: 5px;
+    background-color: rgb(216, 209, 209);
+    color: black;
+    font-weight: bold;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    cursor: pointer;
+}
+
+.btn-sm{
+    font-size: 10px;
+    padding: 7px 13px;
+    margin: 10px 0;
+}
+.btn:hover{
+    background-color: white;
+    color: dodgerblue;
+    cursor:pointer;
+}
+.devimg {
+    height: 200px;
+    width: 200px;
+}
+.contactform{
+    padding: 0 20px;
+    padding-top: 144px;
+    font-family: 'PT Sans', sans-serif;
+    
+
+}
+.contactform h1{
+    font-family: 'PT Sans', sans-serif;
+    
+}
+.contactform form div{
+    padding:  8px 0;
+    display: flex;
+    flex-direction: column;
+    
+}
+.contactform div input{
+    width: 26vw;
+    border-radius: 5px;
+    margin: 6px 0 0 0;
+    padding: 3px;
+}
+#emailHelp{
+   font-size: 11px;
+   color: blue;
+   margin: 0 5px;
+   padding: 3px 0 0;
+}
+#form-check{
+  flex-direction: row;
+}
+#form-check input{
+    width: 20px;
+    margin: 3px 0;
+}
+.blogitem{
+    font-family: 'Ysabeau Office', sans-serif; 
+    margin: 20px;
+    
+}
+.blogcontainer h1{
+    font-family:   'PT Sans', sans-serif;
+}
+.blogcontainer p{
+    font-family:   'PT Sans', sans-serif;
+}
+.devinfo{
+    
+    font-family: 'PT Sans', sans-serif;
+}
+.devinfo h1{
+    font-weight: bold;
+
+}
+.devinfo p{
+    font-size: 25px;
+    padding: 3px;
+    font-family: 'Ysabeau Office', sans-serif;
+}
+.skillcontainer{
+    padding: 12px;
+}
+.skillitem{
+    display: flex;
+}
+.skill{
+    width: 256px;
+    height: 6px;
+    background-color: red;
+    border: 2px solid;
+    border-color: black;
+}    
+.hundred{
+    width: 265px;
+    
+}
+.fifty{
+    width: 125px;
+    background-color: aquamarine;
+    
+}
+.t5{
+    width: 75px;
+    background-color: aqua;
+}
+.myproject{
+    float: left;
+    
+    display: block;
+}
+
+.foodimg{
+    width: 25%;
+    display: flow-ro;
+    align-items: center;
+
+ }
+ .foodimg:hover{
+    background-color: antiquewhite;
+    border: 1px solid #777;
+ }
+ .gymimg{
+    width: 55%;
+    
+ }
+ .gymimg:hover{
+    background-color: antiquewhite;
+    border: 1px solid #777;
+}
+ .newsimg{
+    width:55%;
+    
+ }
+ .newsimg:hover{
+    background-color: antiquewhite;
+    border: 1px solid #777;
+ }
+ .tvimg{
+    width: 70%;
+    
+ }
+ .tvimg:hover{
+    background-color: antiquewhite;
+    border: 1px solid #777;
+ }
+ .beautyimg{
+    width: 45%;
+    
+ }
+ .beautyimg:hover{
+    background-color: antiquewhite;
+    border: 1px solid #777;
+ }
+ .linkedimg{
+    width: 45%;
+    
+ }
+ .linkedimg:hover{
+    background-color: antiquewhite;
+    border: 1px solid #777;
+ }
